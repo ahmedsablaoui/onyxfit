@@ -1,0 +1,140 @@
+{
+  "fitness_profiles": [
+    {
+      "column": "id",
+      "type": "INTEGER"
+    },
+    {
+      "column": "age",
+      "type": "INTEGER"
+    },
+    {
+      "column": "sex",
+      "type": "TEXT",
+      "sample_values": []
+    },
+    {
+      "column": "current_weight_kg",
+      "type": "REAL"
+    },
+    {
+      "column": "height_cm",
+      "type": "REAL"
+    },
+    {
+      "column": "goal_weight_kg",
+      "type": "REAL"
+    },
+    {
+      "column": "daily_budget_tnd",
+      "type": "REAL"
+    },
+    {
+      "column": "allergies",
+      "type": "TEXT",
+      "sample_values": []
+    },
+    {
+      "column": "chronic_conditions",
+      "type": "TEXT",
+      "sample_values": []
+    },
+    {
+      "column": "habits",
+      "type": "TEXT",
+      "sample_values": []
+    },
+    {
+      "column": "meals_per_day",
+      "type": "INTEGER"
+    },
+    {
+      "column": "appetite",
+      "type": "TEXT",
+      "sample_values": []
+    },
+    {
+      "column": "training_days_per_week",
+      "type": "INTEGER"
+    },
+    {
+      "column": "sport",
+      "type": "TEXT",
+      "sample_values": []
+    },
+    {
+      "column": "sport_goal",
+      "type": "TEXT",
+      "sample_values": []
+    },
+    {
+      "column": "experience_level",
+      "type": "TEXT",
+      "sample_values": []
+    },
+    {
+      "column": "injuries_limitations",
+      "type": "TEXT",
+      "sample_values": []
+    },
+    {
+      "column": "marital_status",
+      "type": "TEXT",
+      "sample_values": []
+    },
+    {
+      "column": "created_at",
+      "type": "TEXT",
+      "sample_values": []
+    }
+  ],
+  "knowledge_articles": [
+    {
+      "column": "id",
+      "type": "INTEGER"
+    },
+    {
+      "column": "title",
+      "type": "TEXT",
+      "sample_values": [
+        "Healthy Diet: Evidence-Based Basics",
+        "Physical Activity: Evidence-Based Basics",
+        "Resistance Training: Evidence-Based Basics"
+      ]
+    },
+    {
+      "column": "category",
+      "type": "TEXT",
+      "sample_values": [
+        "Healthy Diet",
+        "Physical Activity",
+        "Resistance Training"
+      ]
+    },
+    {
+      "column": "content",
+      "type": "TEXT",
+      "sample_values": [
+        "# Healthy Diet: Evidence-Based Basics\n\n## Core principles\n\nThe World Health Organization describes four principles of a healthy diet:\n- Adequacy: provide sufficient nutrients without excess.\n- Balance: balance energy intake and expenditure and include appropriate sources of carbohydrates, fats, and protein.\n- Moderation: limit nutrients and ingredients that can negatively affect health.\n- Diversity: eat a variety of nutritious foods across food groups.\n\n## Food variety\n\nA varied diet can include:\n- Vegetables and fruits\n- Legumes such as beans, lentils, and chickpeas\n- Whole grains\n- Nuts and seeds\n- Appropriate protein sources, including eggs, fish, dairy, or other foods suited to the person's dietary preferences\n\n## Food quality\n\nPrefer a variety of minimally processed foods. Limit excessive free sugars, salt, and unhealthy fats. Food safety matters too.\n\n## Individual differences\n\nDietary needs and suitable food choices can vary with age, activity, health conditions, culture, preferences, and the foods a person can access and afford.\n\nThis article provides general education. It is not a personalized diet prescription or a substitute for professional medical nutrition advice.\n\n## Source\n\nWorld Health Organization, Healthy Diet:\nhttps://www.who.int/news-room/fact-sheets/detail/healthy-diet\n",
+        "# Physical Activity: Evidence-Based Basics\n\n## What counts as physical activity?\n\nPhysical activity includes movement that uses energy, such as walking, cycling, sports, exercise, and everyday activities.\n\n## Why it matters\n\nRegular physical activity supports physical health, mental well-being, and overall function. Some activity is better than none.\n\n## WHO recommendations\n\nFor adults aged 18\ufffd64:\n- Aim for 150\ufffd300 minutes of moderate-intensity aerobic activity per week, or 75\ufffd150 minutes of vigorous-intensity aerobic activity, or an equivalent combination.\n- Perform muscle-strengthening activities involving all major muscle groups on at least two days per week.\n\nFor children and adolescents aged 5\ufffd17:\n- Aim for an average of at least 60 minutes per day of moderate-to-vigorous physical activity across the week.\n- Include vigorous aerobic activity and muscle- and bone-strengthening activities at least three days per week.\n\nThese are general public-health recommendations, not individualized training prescriptions. Health conditions and individual circumstances may require adapted advice.\n\n## Source\n\nWorld Health Organization, Physical Activity:\nhttps://www.who.int/europe/news-room/fact-sheets/item/physical-activity\n\nWHO Guidelines on Physical Activity and Sedentary Behaviour:\nhttps://www.who.int/publications/b/55518\n",
+        "# Resistance Training: Evidence-Based Basics\n\n## What is resistance training?\n\nResistance training uses external weights, machines, resistance bands, or body weight to challenge muscles.\n\n## Core principles\n\n### Consistency\nRegular participation is more important than constantly searching for a perfect or complicated routine.\n\n### Individualization\nTraining choices should reflect the person's goals, experience, available equipment, preferences, and physical limitations.\n\n### Appropriate progression\nTraining should be adjusted over time according to the person's ability and response. Avoid assuming that one routine suits everyone.\n\n### Exercise selection\nBody-weight exercises, bands, machines, and free weights can all be useful options. A gym is not essential for every form of resistance training.\n\n### Safety\nUse suitable technique and manageable difficulty. Existing injuries, pain, or relevant medical conditions may require advice from a qualified professional.\n\n## Important limitation\n\nThis article provides general education. It does not prescribe a personalized workout, specific loads, or a progression schedule.\n\n## Source\n\nAmerican College of Sports Medicine, 5 Things to Know About Creating an Effective Resistance Training Plan:\nhttps://acsm.org/effective-resistance-training-program-infographic/\n\nACSM, Resistance Training Guidelines Update (2026):\nhttps://acsm.org/resistance-training-guidelines-update-2026/\n"
+      ]
+    },
+    {
+      "column": "source",
+      "type": "TEXT",
+      "sample_values": [
+        "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+        "https://www.who.int/europe/news-room/fact-sheets/item/physical-activity",
+        "https://acsm.org/effective-resistance-training-program-infographic/"
+      ]
+    },
+    {
+      "column": "created_at",
+      "type": "TEXT",
+      "sample_values": [
+        "2026-10-12 13:50:41"
+      ]
+    }
+  ]
+}

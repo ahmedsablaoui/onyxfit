@@ -13,3 +13,5 @@ OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 DATABASE_PATH = PROJECT_ROOT / "data" / "onyx_fit.db"
 KNOWLEDGE_PATH = PROJECT_ROOT / "data" / "knowledge"
 VECTORSTORE_PATH = PROJECT_ROOT / "data" / "vectorstore"
+
+SCHEMA_PATH = PROJECT_ROOT / 'schema.json'
